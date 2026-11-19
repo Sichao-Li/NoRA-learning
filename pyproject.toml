@@ -1,0 +1,20 @@
+[project]
+name = "nora-learning"
+version = "0.1.0"
+description = "Learning and transfer experiments for grounded normative reasoning."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "matplotlib>=3.9,<4",
+  "nora-benchmark",
+]
+
+[project.optional-dependencies]
+scorer = ["nora-benchmark[scorer]"]
+training = ["ms-swift==4.6.1", "qwen-vl-utils>=0.0.14"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+nora-benchmark = { git = "https://github.com/mint-philosophy/NoRA-benchmark.git", rev = "1b606d967e9bdc5a3d3a9d4f9b515afa9c0d498b" }

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the original NoRA benchmark."
+title: "Normative Reasoning from Humans to Vision-Language Models"
+type: software
+authors:
+  - family-names: Li
+    given-names: Sichao
+  - family-names: Ma
+    given-names: Sai
+  - family-names: Kilov
+    given-names: Daniel
+  - family-names: Yanik Guyot
+    given-names: Secil
+  - family-names: Li
+    given-names: Zhuang
+  - family-names: Lazar
+    given-names: Seth
+preferred-citation:
+  type: manuscript
+  title: "Normative Reasoning from Humans to Vision-Language Models"
+  year: 2026
+  authors:
+    - family-names: Li
+      given-names: Sichao
+    - family-names: Ma
+      given-names: Sai
+    - family-names: Kilov
+      given-names: Daniel
+    - family-names: Yanik Guyot
+      given-names: Secil
+    - family-names: Li
+      given-names: Zhuang
+    - family-names: Lazar
+      given-names: Seth

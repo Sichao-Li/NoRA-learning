@@ -1,0 +1,4 @@
+{
+  "system": "Describe a reasonable next-action decision from the camera wearer's perspective. Use only the visible scene. Return one JSON object with clip_id, facts, reasons, and actions. Each fact has fact_id and text. Each reason has reason_id, text, facts (a list of fact IDs), tags, tier (A, B, or C), and justification. Each action has action_id, description, and reasons_to_do (a list of objects with reason_id and justification). Link reasons to the facts that support them and actions to their supporting reasons. Do not invent a final choice or describe future events as observed facts. Return JSON only.",
+  "user": "Create a NoRA annotation for clip_id `{clip_id}` from these pre-action frames. Describe the visible facts, the reasons they provide, and reasonable next actions."
+}

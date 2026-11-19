@@ -1,0 +1,97 @@
+dimension,polarity,model,n,value
+clear process,negative_avoided,qwen35_2b_raw,38,0.631578947368421
+clear process,negative_avoided,qwen35_2b_sft,38,0.631578947368421
+clear process,negative_avoided,qwen35_4b_raw,38,0.6052631578947368
+clear process,negative_avoided,qwen35_4b_sft,38,0.6578947368421053
+clear process,negative_avoided,qwen35_9b_raw,38,0.6842105263157895
+clear process,negative_avoided,qwen35_9b_sft,38,0.7105263157894737
+clear process,negative_avoided,qwen35_27b_raw,38,0.6842105263157895
+clear process,negative_avoided,qwen35_27b_sft,38,0.6842105263157895
+clear process,positive,qwen35_2b_raw,1546,0.535575679172057
+clear process,positive,qwen35_2b_sft,1546,0.5491591203104786
+clear process,positive,qwen35_4b_raw,1546,0.5730918499353169
+clear process,positive,qwen35_4b_sft,1546,0.5899094437257438
+clear process,positive,qwen35_9b_raw,1546,0.6157826649417852
+clear process,positive,qwen35_9b_sft,1546,0.6274256144890039
+clear process,positive,qwen35_27b_raw,1546,0.6203104786545925
+clear process,positive,qwen35_27b_sft,1546,0.6384217335058214
+harmless outcome,negative_avoided,qwen35_2b_raw,572,0.8111888111888111
+harmless outcome,negative_avoided,qwen35_2b_sft,572,0.8951048951048951
+harmless outcome,negative_avoided,qwen35_4b_raw,572,0.833916083916084
+harmless outcome,negative_avoided,qwen35_4b_sft,572,0.8758741258741258
+harmless outcome,negative_avoided,qwen35_9b_raw,572,0.8479020979020979
+harmless outcome,negative_avoided,qwen35_9b_sft,572,0.8811188811188811
+harmless outcome,negative_avoided,qwen35_27b_raw,572,0.8513986013986014
+harmless outcome,negative_avoided,qwen35_27b_sft,572,0.8846153846153846
+harmless outcome,positive,qwen35_2b_raw,309,0.6019417475728155
+harmless outcome,positive,qwen35_2b_sft,309,0.6537216828478964
+harmless outcome,positive,qwen35_4b_raw,309,0.686084142394822
+harmless outcome,positive,qwen35_4b_sft,309,0.7249190938511327
+harmless outcome,positive,qwen35_9b_raw,309,0.7087378640776699
+harmless outcome,positive,qwen35_9b_sft,309,0.7216828478964401
+harmless outcome,positive,qwen35_27b_raw,309,0.7475728155339806
+harmless outcome,positive,qwen35_27b_sft,309,0.6990291262135923
+helpful outcome,negative_avoided,qwen35_2b_raw,69,0.7971014492753623
+helpful outcome,negative_avoided,qwen35_2b_sft,69,0.855072463768116
+helpful outcome,negative_avoided,qwen35_4b_raw,69,0.8115942028985508
+helpful outcome,negative_avoided,qwen35_4b_sft,69,0.8260869565217391
+helpful outcome,negative_avoided,qwen35_9b_raw,69,0.8115942028985508
+helpful outcome,negative_avoided,qwen35_9b_sft,69,0.7971014492753623
+helpful outcome,negative_avoided,qwen35_27b_raw,69,0.782608695652174
+helpful outcome,negative_avoided,qwen35_27b_sft,69,0.8260869565217391
+helpful outcome,positive,qwen35_2b_raw,1722,0.46631823461091754
+helpful outcome,positive,qwen35_2b_sft,1722,0.5307781649245064
+helpful outcome,positive,qwen35_4b_raw,1722,0.5319396051103368
+helpful outcome,positive,qwen35_4b_sft,1722,0.5603948896631823
+helpful outcome,positive,qwen35_9b_raw,1722,0.5656213704994193
+helpful outcome,positive,qwen35_9b_sft,1722,0.5813008130081301
+helpful outcome,positive,qwen35_27b_raw,1722,0.610917537746806
+helpful outcome,positive,qwen35_27b_sft,1722,0.6178861788617886
+identifying,negative_avoided,qwen35_2b_raw,138,0.8188405797101449
+identifying,negative_avoided,qwen35_2b_sft,138,0.855072463768116
+identifying,negative_avoided,qwen35_4b_raw,138,0.7608695652173914
+identifying,negative_avoided,qwen35_4b_sft,138,0.8115942028985508
+identifying,negative_avoided,qwen35_9b_raw,138,0.782608695652174
+identifying,negative_avoided,qwen35_9b_sft,138,0.8623188405797102
+identifying,negative_avoided,qwen35_27b_raw,138,0.7971014492753623
+identifying,negative_avoided,qwen35_27b_sft,138,0.8478260869565217
+identifying,positive,qwen35_2b_raw,4232,0.4914933837429111
+identifying,positive,qwen35_2b_sft,4232,0.4929111531190926
+identifying,positive,qwen35_4b_raw,4232,0.5498582230623819
+identifying,positive,qwen35_4b_sft,4232,0.5153591682419659
+identifying,positive,qwen35_9b_raw,4232,0.5689981096408318
+identifying,positive,qwen35_9b_sft,4232,0.5555293005671077
+identifying,positive,qwen35_27b_raw,4232,0.5975897920604915
+identifying,positive,qwen35_27b_sft,4232,0.5838846880907372
+logical process,negative_avoided,qwen35_2b_raw,123,0.7479674796747967
+logical process,negative_avoided,qwen35_2b_sft,123,0.7967479674796748
+logical process,negative_avoided,qwen35_4b_raw,123,0.7398373983739838
+logical process,negative_avoided,qwen35_4b_sft,123,0.8211382113821138
+logical process,negative_avoided,qwen35_9b_raw,123,0.7560975609756098
+logical process,negative_avoided,qwen35_9b_sft,123,0.7560975609756098
+logical process,negative_avoided,qwen35_27b_raw,123,0.7317073170731707
+logical process,negative_avoided,qwen35_27b_sft,123,0.7479674796747967
+logical process,positive,qwen35_2b_raw,2678,0.41635548917102316
+logical process,positive,qwen35_2b_sft,2678,0.41635548917102316
+logical process,positive,qwen35_4b_raw,2678,0.4697535474234503
+logical process,positive,qwen35_4b_sft,2678,0.4462285287528006
+logical process,positive,qwen35_9b_raw,2678,0.5044809559372666
+logical process,positive,qwen35_9b_sft,2678,0.48618371919342795
+logical process,positive,qwen35_27b_raw,2678,0.5407020164301718
+logical process,positive,qwen35_27b_sft,2678,0.5231516056758775
+other,negative_avoided,qwen35_2b_raw,1,1.0
+other,negative_avoided,qwen35_2b_sft,1,1.0
+other,negative_avoided,qwen35_4b_raw,1,0.0
+other,negative_avoided,qwen35_4b_sft,1,1.0
+other,negative_avoided,qwen35_9b_raw,1,1.0
+other,negative_avoided,qwen35_9b_sft,1,1.0
+other,negative_avoided,qwen35_27b_raw,1,1.0
+other,negative_avoided,qwen35_27b_sft,1,0.0
+other,positive,qwen35_2b_raw,22,0.4090909090909091
+other,positive,qwen35_2b_sft,22,0.5909090909090909
+other,positive,qwen35_4b_raw,22,0.5
+other,positive,qwen35_4b_sft,22,0.5454545454545454
+other,positive,qwen35_9b_raw,22,0.5
+other,positive,qwen35_9b_sft,22,0.5909090909090909
+other,positive,qwen35_27b_raw,22,0.4090909090909091
+other,positive,qwen35_27b_sft,22,0.6818181818181818
