@@ -109,11 +109,3 @@ This reads the included score tables and writes PDF and PNG plots to
 `build/figures/`. It does not run models, call judges, or calculate new scores
 or uncertainty intervals.
 
-## Citation and Use
-
-The manuscript is **Normative Reasoning from Humans to Vision-Language Models**.
-Citation metadata is provided in [CITATION.cff](CITATION.cff). For the underlying
-benchmark, also cite the [NoRA paper](https://arxiv.org/abs/2606.04806).
-
-The [MIT license](LICENSE) covers the code. NoRA annotations and source media have their own licenses
-and access conditions; this repository does not change them.
