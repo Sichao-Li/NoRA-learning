@@ -5,7 +5,6 @@ Code and results for the learning and transfer study extending
 We study Qwen3.5 at 2B, 4B, 9B, and 27B, comparing each original checkpoint
 (RAW) with its fine-tuned counterpart (SFT).
 
-[Paper](paper/manuscript.pdf) |
 [Results](results/README.md) |
 [Training](docs/training.md) |
 [Evaluation](docs/evaluation.md) |
@@ -29,7 +28,6 @@ the reference, prompts, evaluators, and denominators.
 ## Repository
 
 ```text
-paper/           Manuscript PDF
 results/         Reported scores, coverage, and saved intervals
 training/        Data preparation and MS-SWIFT training/inference commands
 evaluation/      Conversion of saved responses for the NoRA scorer
@@ -117,6 +115,5 @@ The manuscript is **Normative Reasoning from Humans to Vision-Language Models**.
 Citation metadata is provided in [CITATION.cff](CITATION.cff). For the underlying
 benchmark, also cite the [NoRA paper](https://arxiv.org/abs/2606.04806).
 
-The [MIT license](LICENSE) covers the code. Rights to the manuscript remain
-with its authors. NoRA annotations and source media have their own licenses
+The [MIT license](LICENSE) covers the code. NoRA annotations and source media have their own licenses
 and access conditions; this repository does not change them.

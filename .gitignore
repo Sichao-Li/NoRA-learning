@@ -13,6 +13,7 @@ data/
 runs/
 build/
 checkpoints/
+/paper/
 wandb/
 *.safetensors
 *.ckpt
