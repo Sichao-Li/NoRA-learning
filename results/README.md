@@ -28,34 +28,4 @@ Rates and NoRA scores are stored as fractions. Plots multiply rates by 100;
 changes in those rates are percentage points. Metrics are not normalized to
 a common benchmark score. Missing results are not zeros.
 
-## Scope of the Findings
-
-**NoRA:** The learning comparison uses 67 clips valid for all eight systems,
-out of 190 attempted clips. It uses an earlier reference and the supported-action
-scoring procedure, not the current public-reference evaluation. Scores are
-set-level; these runs do not record explicit final choices.
-
-**MoReBench:** The Public cohort has 500 dilemmas and 11,450 criteria. The
-dimension rates are unweighted and separate positive criteria from avoided
-negative criteria. They are not the weighted task score. Theory results with
-missing theory instructions are not included.
-
-**HarmBench and XSTest:** HarmBench includes 240 behavior-classified and 80
-copyright cases. XSTest has 250 safe and 200 unsafe requests. Lower HarmBench
-attack success and higher unsafe refusal must be read alongside safe compliance.
-
-**MSSBench:** The cross-prompt cohort has 1,269 cases: 303 safe chat, 352 unsafe
-chat, 287 safe embodied, and 327 unsafe embodied. Overall accuracy gives equal
-weight to the four groups. The larger standard-only cohort is a different
-comparison. GPT-OSS-20B judgments are substituted judgments, not independently
-validated original-evaluator results.
-
-**Supplementary tasks:** ETHICS excludes deontology with incomplete inputs;
-adapted MoralChoice and MoralBench results should not be renamed as their
-original full protocols. NormLens retains its split/group averaging. BBQ
-accuracy alone does not measure directional bias. See the manuscript appendix
-for the full task-specific qualifications.
-
-Coverage is part of the result. The comparisons exclude unusable cases, not
-valid wrong answers. Shared-case scores are conditional on being scoreable and
-do not estimate deployment performance over all attempted inputs.
+See the paper for the cohort and evaluator behind each benchmark.
