@@ -102,7 +102,7 @@ the loading code and the prompt.
 | 2B | [Qwen3.5-2B-NoRA](https://huggingface.co/Lester1996/Qwen3.5-2B-NoRA) |
 | 4B | [Qwen3.5-4B-NoRA](https://huggingface.co/Lester1996/Qwen3.5-4B-NoRA) |
 | 9B | [Qwen3.5-9B-NoRA](https://huggingface.co/Lester1996/Qwen3.5-9B-NoRA) |
-| 27B | To be added |
+| 27B| [Qwen3.5-27B-NoRA](https://huggingface.co/Lester1996/Qwen3.5-27B-NoRA) | 
 
 The RAW models are the original
 [Qwen3.5](https://huggingface.co/Qwen) checkpoints.
